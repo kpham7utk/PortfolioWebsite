@@ -3,23 +3,25 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated full stack developer with a passion for building efficient and scalable web applications. With one year of hands-on experience, I have developed strong skills in front-end technologies like React and Next.js, along with back-end development using Node.js and MySQL. My goal is to leverage my growing expertise to create innovative solutions that enhance user experiences and contribute to business success.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, SQLite, and Django. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and adaptable full-stack developer with a passion for crafting efficient and user-friendly web applications. My experience spans a range of technologies, including React, Next.js, Node.js, MySQL, SQLite, and Django. My journey in web development began with a deep curiosity about how things work, evolving into a career where I continually seek to learn and embrace new challenges. I excel in collaborative environments and enjoy tackling complex problems to deliver high-quality solutions. Beyond coding, I stay active, explore new technologies, and enjoy video games`;
+
+export const EDUCATION_TEXT = "Details about your education here...";
 
 export const EXPERIENCES = [
   {
     year: "January 2024 - Present",
     role: "Graduate Assistant Web Developer",
     company: "University of Tennessee at Knoxville",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["PHP", "HTML", "CSS", "TeamDynamix"],
+    description: `As a Graduate Assistant Web Developer at the University of Tennessee at Knoxville, I designed, developed, and maintained web applications using PHP, ensuring high performance and responsiveness. I recreated PHP webforms within TDX's iPaaS, enhancing data integration processes across various applications. My role also involved utilizing TeamDynamix for project management, maintaining databases, conducting thorough testing, and developing comprehensive documentation to support ongoing maintenance and user training.`,
+    technologies: ["PHP", "HTML", "CSS", "TeamDynamix", "JavaScript"],
   },
   {
     year: "August 2023 - January 2024",
-    role: "OIT Helpdesk Assistant",
+    role: "Office of Innovative Technologies Helpdesk Assistant",
     company: "University of Tennessee at Knoxville",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    description: `At the OIT Helpdesk, I provided comprehensive support for university applications and platforms. I offered advanced troubleshooting and resolution services for both university-owned and student-owned computers, addressing complex issues related to hardware, software, email systems, NetID management, and Duo Two-Factor authentication. Additionally, I specialized in supporting the Microsoft Office suite, conducted training sessions, created user guides, and efficiently managed support incidents using a ticketing system to ensure timely and effective resolutions.`,
     technologies: [],
   },
 ];
@@ -30,21 +32,28 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "Node.js", "Django", "MySQL", "JSON", "RESTful API"],
   },
   {
     title: "Portfolio Website",
     image: project2,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["React", "TailwindCSS", "Framer Motion"],
   },
   {
     title: "ISA Emulator Project",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Recreation of a RISC-V processor in Python as a part of a graduate level course",
+    technologies: ["Python"],
+  },
+  {
+    title: "Student Planner",
+    image: project4,
+    description:
+      "An app that allowed students to track deadlines, lectures, and take notes.",
+    technologies: ["React", "HTML", "CSS", "MySQL"],
   },
 ];
 
