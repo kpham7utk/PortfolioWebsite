@@ -7,7 +7,23 @@ export const HERO_CONTENT = `I am a dedicated full stack developer with a passio
 
 export const ABOUT_TEXT = `I am a dedicated and adaptable full-stack developer with a passion for crafting efficient and user-friendly web applications. My experience spans a range of technologies, including React, Next.js, Node.js, MySQL, SQLite, and Django. My journey in web development began with a deep curiosity about how things work, evolving into a career where I continually seek to learn and embrace new challenges. I excel in collaborative environments and enjoy tackling complex problems to deliver high-quality solutions. Beyond coding, I stay active, explore new technologies, and enjoy video games`;
 
-export const EDUCATION_TEXT = "Details about your education here...";
+export const EDUCATION_TEXT = `
+    <div>
+        <h4 class="font-semibold text-lg">Bachelor of Science</h4>
+        <p>Major in Biochemistry and Molecular Biology</p>
+        <p>Minor in Japanese</p>
+        <p class="text-sm text-neutral-500">University of Tennessee, Knoxville, TN, USA</p>
+        <p class="text-sm text-neutral-500">08/2017 - 08/2022</p>
+    </div>
+    <div class="mt-6">
+        <h4 class="font-semibold text-lg">Online Master's of Science</h4>
+        <p>Major in Computer Science</p>
+        <p>Concentration in Software Engineering</p>
+        <p>Graduating in December 2024</p>
+        <p class="text-sm text-neutral-500">University of Tennessee, Knoxville, TN, USA</p>
+        <p class="text-sm text-neutral-500">01/2024 - Current</p>
+    </div>
+`;
 
 export const EXPERIENCES = [
   {
