@@ -19,24 +19,23 @@ export const EDUCATION_TEXT = `
         <h4 class="font-semibold text-lg">Online Master's of Science</h4>
         <p>Major in Computer Science</p>
         <p>Concentration in Software Engineering</p>
-        <p>Graduating in December 2024</p>
         <p class="text-sm text-neutral-500">University of Tennessee, Knoxville, TN, USA</p>
-        <p class="text-sm text-neutral-500">01/2024 - Current</p>
+        <p class="text-sm text-neutral-500">01/2024 - 12/2024</p>
     </div>
 `;
 
 export const EXPERIENCES = [
   {
-    year: "January 2024 - Present",
-    role: "Graduate Assistant Web Developer",
-    company: "University of Tennessee at Knoxville",
+    year: "January 2024 - December 2024",
+    role: "Web Developer",
+    company: "Office of Innovative Technlogies, University of Tennessee at Knoxville",
     description: `As a Graduate Assistant Web Developer at the University of Tennessee at Knoxville, I designed, developed, and maintained web applications using PHP, ensuring high performance and responsiveness. I recreated PHP webforms within TDX's iPaaS, enhancing data integration processes across various applications. My role also involved utilizing TeamDynamix for project management, maintaining databases, conducting thorough testing, and developing comprehensive documentation to support ongoing maintenance and user training.`,
     technologies: ["PHP", "HTML", "CSS", "TeamDynamix", "JavaScript"],
   },
   {
     year: "August 2023 - January 2024",
-    role: "Office of Innovative Technologies Helpdesk Assistant",
-    company: "University of Tennessee at Knoxville",
+    role: "Student Helpdesk",
+    company: "Office of Innovative Technlogies, University of Tennessee at Knoxville",
     description: `At the OIT Helpdesk, I provided comprehensive support for university applications and platforms. I offered advanced troubleshooting and resolution services for both university-owned and student-owned computers, addressing complex issues related to hardware, software, email systems, NetID management, and Duo Two-Factor authentication. Additionally, I specialized in supporting the Microsoft Office suite, conducted training sessions, created user guides, and efficiently managed support incidents using a ticketing system to ensure timely and effective resolutions.`,
     technologies: [],
   },
@@ -74,5 +73,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  email: "kpham7@vols.utk.edu",
+  email: "mingoalen1@gmail.com",
 };
