@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.PNG";
 
 export const HERO_CONTENT = `I am a dedicated full stack developer with a passion for building efficient and scalable web applications. With one year of hands-on experience, I have developed strong skills in front-end technologies like React and Next.js, along with back-end development using Node.js and MySQL. My goal is to leverage my growing expertise to create innovative solutions that enhance user experiences and contribute to business success.`;
 
@@ -42,6 +43,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Sweethearts Bakery Website",
+    image: project5,
+    description:
+      "Developed a full-stack e-commerce platform using Next.js, PostgreSQL, and AWS RDS, enabling customers to browse and register for baking classes. Implemented secure payment processing using Square’s API, handling real-time transactions and class registrations.",
+    technologies: ["Next.js", "PostgreSQL", "Tailwind CSS", "AWS RDS, RESTful APIs"],
+  },
   {
     title: "Grocery Guru",
     image: project1,
