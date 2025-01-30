@@ -17,7 +17,7 @@ export const EDUCATION_TEXT = `
         <p class="text-sm text-neutral-500">08/2017 - 08/2022</p>
     </div>
     <div class="mt-6">
-        <h4 class="font-semibold text-lg">Online Master's of Science</h4>
+        <h4 class="font-semibold text-lg">Master's of Science</h4>
         <p>Major in Computer Science</p>
         <p>Concentration in Software Engineering</p>
         <p class="text-sm text-neutral-500">University of Tennessee, Knoxville, TN, USA</p>
