@@ -48,14 +48,14 @@ export const PROJECTS = [
     image: project5,
     description:
       "Developed a full-stack e-commerce platform using Next.js, PostgreSQL, and AWS RDS, enabling customers to browse and register for baking classes. Implemented secure payment processing using Square’s API, handling real-time transactions and class registrations.",
-    technologies: ["Next.js", "PostgreSQL", "Tailwind CSS", "AWS RDS, RESTful APIs"],
+    technologies: ["Next.js", "PostgreSQL", "Tailwind CSS", "AWS RDS", "RESTful APIs"],
   },
   {
     title: "Grocery Guru",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "Django", "MySQL", "JSON", "RESTful API"],
+    technologies: ["HTML", "CSS", "React", "Node.js", "Django", "MySQL", "JSON", "RESTful APIs"],
   },
   {
     title: "Portfolio Website",
