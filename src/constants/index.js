@@ -44,11 +44,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Sweethearts Bakery Website",
-    image: project5,
+    title: "Trackify",
+    image: project4,
     description:
-      "Developed a full-stack e-commerce platform using Next.js, PostgreSQL, and AWS RDS, enabling customers to browse and register for baking classes. Implemented secure payment processing using Square’s API, handling real-time transactions and class registrations.",
-    technologies: ["Next.js", "PostgreSQL", "Tailwind CSS", "AWS RDS", "RESTful APIs"],
+      "A full-stack task management application built with a Spring Boot backend and a React frontend, allowing users to create, track, and manage their to-dos efficiently.",
+    technologies: ["Java", "Spring Boot", "RESTful APIs", "React", "JavaScript", "npm", "Maven"],
   },
   {
     title: "Grocery Guru",
@@ -70,13 +70,6 @@ export const PROJECTS = [
     description:
       "Recreation of a RISC-V processor in Python as a part of a graduate level course",
     technologies: ["Python"],
-  },
-  {
-    title: "Student Planner",
-    image: project4,
-    description:
-      "An app that allowed students to track deadlines, lectures, and take notes.",
-    technologies: ["React", "HTML", "CSS", "MySQL"],
   },
 ];
 
